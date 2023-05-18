@@ -1,9 +1,9 @@
 import { createChart } from 'lightweight-charts';
 
-const chart = createChart(document.body, { width: 400, height: 300 });
-const lineSeries = chart.addLineSeries();
+const диаграмма = createChart(document.body, { ширина: 400, высота: 300 });
+const LineSeries = диаграмма.addLineSeries();
 lineSeries.setData([
-    { time: '2019-04-11', value: 80.01 },
+    { время: '2019-04-11', значение: 80,01 },
     { time: '2019-04-12', value: 96.63 },
     { time: '2019-04-13', value: 76.64 },
     { time: '2019-04-14', value: 81.89 },
@@ -16,4 +16,5 @@ lineSeries.setData([
 ]);
 
 https://www.tradingview.com/
- 
+
+ установка npm -сохранение облегченных диаграмм
